@@ -89,12 +89,12 @@ function game(userChoice) {
         setTimeout(() => {
             result_p.innerHTML = "Congratulations! You won the game!";
             resetGame()
-        }, 2000);
+        }, 1500);
     } else if (computerScore === 10) {
         setTimeout(() => {
             result_p.innerHTML = "Sorry, you lost the game.";
             resetGame()
-        }, 2000);
+        }, 1500);
     }
 }
 
